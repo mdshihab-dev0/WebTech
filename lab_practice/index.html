@@ -1,0 +1,35 @@
+<html>
+    <body>
+        <link rel="stylesheet" href="./style/style.css">
+
+        <form action="/registration.php" method="post">
+            <fieldset>
+                <legend>Student Information</legend>
+                <table>
+                    <tr>
+                         <td >
+                    <label for="name">Full Name (Text)</label><br>
+                    <input type="text" placeholder="Enter your full Name" required><br><br>
+                    <label for="password">Password</label><br>
+                    <input type="password" placeholder="Enter secure password" required><br><br>
+                    <label for="dob">Experiment Date</label><br>
+                    <input type="date">
+                </td>
+                <td>
+                    <label for="email">Email Address</label><br>
+                    <input type="email" placeholder="your email@example.com" required><br><br>
+                    <label for="age">Age(Number)</label><br>
+                    <input type="number" placeholder="Enter your age"><br><br>
+                    <label for="phone">Phone Number</label><br>
+                    <input type="tel" placeholder="+880 XXXX XXXXXX">
+                </td>
+                </table>
+            </fieldset>
+            <div class="button-container">
+            <input type="button" value="Submit" id="submit">
+            <input type="button" value="Clear" id ="clear">
+            </div>
+        </form>
+
+    </body>
+</html>
