@@ -1,0 +1,15 @@
+fieldset {
+    width: 300px;
+    margin: 0 auto;
+}
+
+legend {
+    font-weight: bold;
+}
+
+#total {
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+
+}
