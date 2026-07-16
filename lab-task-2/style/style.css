@@ -1,0 +1,19 @@
+.container {
+    margin: 50px auto;
+    width: 300px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+label {
+    font-weight: bold;
+}
+
+.required {
+    color: red;
+}
+
+.button-container {
+    text-align: center;
+}
