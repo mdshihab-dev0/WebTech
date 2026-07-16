@@ -31,6 +31,5 @@ function validateForm() {
         document.getElementById("passwordError").innerHTML = "";
     }
 
-    
     return false;
 }
