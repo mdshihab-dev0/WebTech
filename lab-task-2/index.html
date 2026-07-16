@@ -1,0 +1,47 @@
+<html>
+    <head><link rel="stylesheet" type="text/css" href="./style/style.css"> </head>
+    <script src="./script/script.js"></script>
+    <body>
+        <h1>Student Rgisrtation From</h1>
+        <fieldset>
+            <legend>Student Info</legend>
+        <form id="registrationForm">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required><br><br>
+            <label for="lastName">Last Name:</label>            
+            <input type="text" id="lastName" name="lastName" required><br><br>
+            <label for="Id">Student ID:</label>
+            <input type="text" id="studentId" name="studentId" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="crdcomplt">Credit Completed:</label>
+            <input type="number" id="creditCompleted" name="creditCompleted" required><br><br>
+            <label for="dept">Department:</label>
+            <select id="dept" name="department" required>
+                <option value="">Select Department</option>
+                <option value="CSE">CSE</option>
+                <option value="EEE">EEE</option>
+                <option value="ME">ME</option>      
+            <option value="CE">CE</option>
+            <option value="BBA">BBA</option>
+            </select><br><br>
+        </form>
+        <button type="submit">Submit</button>
+   </fieldset>
+   <p id="Total"></p><br><br>
+   <table id="studentTable" border="1">
+            <tr>
+                <th>Serial No</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Student ID</th>
+                <th>Email</th>
+                <th>Credit Completed</th>
+                <th>Department</th>
+            </tr>
+   </table>
+    
+    </body>
+
+
+</html>
